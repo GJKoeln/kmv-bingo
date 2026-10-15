@@ -1,34 +1,40 @@
-const WORD_POOL = [
-    "LAG / BAG",
-    "Keine Zeit fürs Mittagessen",
-    "Wahlbeteiligung schwankt stark",
-    "Redezeit wird überschritten",
-    "Redebeitrag unter 1 Minute",
-    "Jemand trägt ein Gedicht vor",
-    "Heizungsgesetz wird erwähnt",
-    "\u201eKI ist eine Bedrohung\u201c",
-    "Ida redet (zu) viel",
-    "\u201eLiebe Freunde und Freunde\u201c",
-    "\u201eWüst\u201c",
-    "AfD wird erwähnt",
-    "Keine Gegenrede gegen Antrag",
-    "Antrag auf Erweiterung der Redeliste",
-    "Redeliste ist nicht quotiert",
-    "Jemand hat einen Gegenstand mit auf der Bühne",
-    "\u201eNeu bei den Grünen\u201c",
-    "\u201eGibt es noch weitere Kandidaturen?\u201c",
-    "\u201eWas ist Slop?\u201c",
-    "\u201eMandatsträgerabgaben\u201c",
-    "\u201ePrivilegien\u201c",
-    "\u201eSparprogramm\u201c",
-    "\u201eCoesfeld\u201c",
-    "\u201eSachsen-Anhalt\u201c",
-    "\u201eTransparent\u201c",
-    "(Unangenehmer) Lacher bei einem Redebeitrag",
-    "Redner:in läuft von der Bühne und ignoriert das Präsidium",
-    "Jemand postet ein Meme über die KMV auf der KMV",
-    "Kaffee ist leer",
-    "\u201eKölner Oper\u201c",
-    "Flacher Witz aus dem Präsidium",
-    "Jemand trägt Leo-Print"
-];
+const WORD_POOL = {
+    "buko-1": {
+        "id": "buko-1",
+        "title": "BuKo Tag 1",
+        "subtitle": "16.10.2026",
+        "words": [
+            "Hund",
+            "Katze",
+            "Maus",
+            "Vogel",
+            "Fisch",
+            "Pferd",
+            "Kuh",
+            "Schwein",
+            "Huhn",
+            "Ente",
+            "Gans",
+            "Lamm",
+            "Ziege",
+            "Esel",
+            "Biene",
+            "Schmetterling",
+            "Ameise",
+            "Spinne",
+            "Frosch",
+            "Krabbe",
+            "Seestern",
+            "Qualle",
+            "Wal",
+            "Delfin",
+            "Hai"
+        ]
+    }
+};
+
+const DEFAULT_LIST_ID = "buko-1";
+
+const dateToListID = {
+    "2026-10-16": "buko-1"
+};
